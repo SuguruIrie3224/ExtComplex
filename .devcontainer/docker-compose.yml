@@ -1,0 +1,8 @@
+services:
+  rust-template:
+    image: rust:latest
+    restart: always
+    tty: true
+    volumes:
+      - ..:/workspace
+    working_dir: /workspace
